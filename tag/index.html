@@ -65,25 +65,30 @@
 	
 <meta name="generator" content="Hexo 4.2.0"></head>
     
-		<body class="is-loading">
+		
+<!-- Layouts -->
+
+    <!-- Tags Cloud -->
+    
+<link rel="stylesheet" href="/css/item.css" />
+<style >
+    .row a{
+        border-bottom: none;
+    }
+    .special{
+        padding: 0;
+        padding: 2rem;
+    }
+</style>
+<body class="is-loading">
     <!-- Wrapper 外包 s-->
-    <div id="wrapper" class="fade-in overlay">
+    <div id="wrapper" class="fade-in">
         <!-- Intro 头部显示 s -->
-                <div id="intro">
-            <h1>This is<br />
-                        Mr Peter blog </h1>
-            <p> Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way
-            </p>
-            <ul class="actions">
-                <li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-            </ul>
-        </div>
         <!-- Intro 头部显示 e -->
         <!-- Header 头部logo start -->
         <header id="header">
     <a href="/" class="logo">Peter</a>
 </header>
-        <!-- Header 头部logo end -->
         <!-- Nav 导航条 start -->
         <nav id="nav" class="special" >
             <ul class="menu links" >
@@ -144,55 +149,30 @@
                     
 			</ul>
 </nav>
-        <!-- Nav 导航条 end -->
-        <!-- Main 主要部分 start -->
-        
-        <!-- 文章列表   s -->
-        <div id="main" style="background-color: transparent; padding:0;">
-        <section class="link_container" style="margin-top: 0; background-color: transparent; ">
-            <div class="link_row">
-                <!-- 文章sample  s-->
-
-                
-                <div class="6u 12u(narrower)">
-                    <section class="link_box special">
-                       <a href="/2020/05/09/hello-world/">
-                        <div class="page_title" style="background-image: url(https://images.unsplash.com/photo-1509624780899-f812439647e4?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                            <!--标题-->
-                            <h2 class="page_title_text"> 第一篇 </h2>
-                            <!--段落-->
-                        </div>
-                        </a>
-                        <div class="home-post-info">
-                            <!-- Author Avatar -->
-                            <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data">2020-05-09</span></h6>
-                                <div class="home-post-info-Category">
-                                    <!-- Category -->
-                                    <span>
-                            <h6>
-                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/" target="_blank" rel="noopener">
-                                <a class="post_category-link" href="/categories/Projects/">Projects</a></a>
-                            </h6>
-                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- 文章sample  e-->
-            
-            </div>
-        </section>
+                <div id="main">
+            <!-- Main first s-->
+            <article id="me" class="panel">
+                <header style="color: #000000">
+                    <h1>Mr Peter</h1>
+                    <p>这个人很懒，只留下了名字</p>
+                </header>
+                <a href="" class="jumplink pic">
+                    <span class="arrow icon fa-chevron-right"><span></span></span>
+                    <img src="/images/me.jpg" alt="" />
+                </a>
+            </article>
+            <!-- Main first e-->
         </div>
-        <!-- 文章列表   end -->
-        <!-- Main 主要部分 end -->
-        <!-- footer  页码 start-->
-        <footer style="text-align: center; padding-top: 2em;">
-  
-</footer>
 
-        <!-- footer  页码 end-->
+        <section class="special">
+                            <div class="row" style="border-bottom: none;">
+
+        <a href="/tags/%E7%94%B7%E5%84%BF%E4%B8%8D%E5%B1%95%E9%A3%8E%E4%BA%91%E5%BF%97%EF%BC%8C%E7%A9%BA%E8%B4%9F%E5%A4%A9%E7%94%9F%E5%85%AB%E5%B0%BA%E8%BA%AF/" style="font-size: 16px;">男儿不展风云志，空负天生八尺躯</a>
+
+                            </div>
+                    
+        </section>
+
         <!-- Copyright 版权 start -->
                 <div id="copyright">
             <ul>
@@ -203,11 +183,9 @@
                 <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 			
         </div>
-        <!-- Copyright 版权 end -->
     </div>
-    <!-- Wrapper 外包 e-->
-    <!-- Scripts -->
 </body>
+
 
  	
 </html>
